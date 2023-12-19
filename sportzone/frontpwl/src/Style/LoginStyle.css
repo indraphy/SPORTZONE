@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(225, 225, 225);
+}
+
+.login-card {
+  width: 100%; /* Ubah lebar sesuai kebutuhan */
+  max-width: 700px; /* Tambahkan max-width agar responsif */
+  margin: auto; /* Gunakan auto untuk centering */
+  filter: drop-shadow(2px 4px 20px rgba(0, 0, 0, 0.3));
+}
+.welcome-title,
+.signin-text {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.welcome-title {
+  color: #151515;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 30px;
+}
+/* 
+.signin-text {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  padding-bottom: 20px;
+} */
+
+/* Form Input */
+form1 {
+  width: 100%; /* Ubah lebar sesuai kebutuhan */
+  max-width: 500px;
+  margin: auto; /* Gunakan auto untuk centering */
+  border-radius: 10px; /* Ubah sesuai kebutuhan */
+  background: #fff;
+  height: 400px;
+}
+/* .password-input {
+  /* width: 100%; Ubah lebar sesuai kebutuhan
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid #000; */
+
+.input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+
+  align-items: center;
+}
+.btn-signin {
+  width: 100%; /* Ubah lebar sesuai kebutuhan */
+  height: 35px;
+  background-color: #06b6d4;
+}
+.btn-Lsignup {
+  align-items: center;
+  justify-content: center;
+
+  color: black;
+  align-items: center;
+}
+
+.Lsignup-btn {
+  align-items: center;
+
+  width: 100%;
+  color: black;
+  align-items: center;
+}

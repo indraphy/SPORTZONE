@@ -1,0 +1,103 @@
+body {
+  background-color: #f3f3f3; /* Ganti dengan warna yang Anda inginkan */
+}
+
+/* .input-group {
+  -webkit-box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.1);
+} */
+
+.input-group-addon {
+  border: none;
+}
+
+.form-control {
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+}
+
+.input-group {
+  width: 500px;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.input-group .input-group-addon [type="submit"] {
+  border: none;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.breadcrumbnav {
+  list-style: none;
+}
+.breadcrumbnav li {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.breadcrumbnav li::after {
+  content: " > ";
+  margin-right: 5px;
+}
+
+.breadcrumbnav li:last-child::after {
+  content: "";
+}
+.breadcrumbnav a {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.breadcrumbnav a:hover {
+  text-decoration: underline;
+}
+
+.btnsearch {
+  padding: 0;
+  height: 40px;
+  /* line-height: 60px; */
+}
+
+.btnsearch-primary {
+  padding: 0 18px;
+  /* line-height: 54px; */
+  background: #009688;
+  color: #fff;
+}
+
+.btnsearch-primary:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.custom-card {
+  padding: 30px;
+  padding-left: 40px;
+  padding-bottom: 0;
+}
+
+@media (max-width: 467px) {
+  .input-group {
+    width: 300px;
+  }
+  .form-control {
+    height: 30px;
+  }
+  .btnsearch {
+    height: 30px;
+  }
+  .custom-card {
+    padding: 10px;
+    padding-left: 18px;
+    padding-bottom: 0;
+  }
+}
